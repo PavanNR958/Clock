@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#clock {
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 30px 0;
+    border-radius: 8px;
+    font-size: 50px;
+    color: rgb(47, 173, 190);
+    background-color: rgb(83, 21, 130);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.time-container {
+    margin-top: 100px;
+}
+
+.date-container {
+    margin-top: 100px;
+}
+
+#speak-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #8800ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#date {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
